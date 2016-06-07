@@ -53,6 +53,7 @@ To get the HTML output of the text input, trigger the getHTML() function.
        
 ```
 
+[Example Page](https://api.makemoji.com/webdemo/example.html)
 
 
 
