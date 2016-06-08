@@ -1,9 +1,9 @@
-Makemoji SDK
+Makemoji Javascript SDK
 ====================
 
-**Makemoji** is a free emoji keyboard for mobile apps. 
+**Makemoji** is a free emoji SDK. 
 
-By installing our keyboard SDK every user of your app will instantly have access to new and trending emojis. Our goal is to increase user engagement as well as provide actionable real time data on sentiment (how users feel) and affinity (what users like). With this extensive data collection your per-user & company valuation will increase along with your user-base.
+By installing our javascript SDK you will instantly have access to new and trending emojis. Our goal is to increase user engagement as well as provide actionable real time data on sentiment (how users feel) and affinity (what users like). With this extensive data collection your per-user & company valuation will increase along with your user-base.
  
 **Features Include**
 
@@ -37,19 +37,20 @@ Usage
 On document ready, attach to a container where you want to display the text input.
 
 ```
+$(function(){
     Makemoji.init('YOUR_SDK_KEY', "#container");
-
+});
 ```
 
-Only one instance of the Makemoji plugin can be used on a page.
+Only one instance of the Makemoji SDK can be used per page.
 
 To get the HTML output of the text input, trigger the getHTML() function.
 
 ```
-    $('body').on('click', '#sendbutton', function(){
-       var htmlOutput = Makemoji.getHTML();
-   	 	// send to your back, display on page, etc
-   	 });
+$('body').on('click', '#sendbutton', function(){
+   var htmlOutput = Makemoji.getHTML();
+ 	// send to your backend, display on page, etc
+ });
        
 ```
 
