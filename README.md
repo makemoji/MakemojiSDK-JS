@@ -12,9 +12,9 @@ By installing our javascript SDK you will instantly have access to new and trend
 * New emoji load dynamically
 * Analytics Dashboard & CMS
 
-To obtain your SDK key please email: sdk@makemoji.com
+To obtain your SDK key please visit: http://makemoji.com
 
-**[Learn More](http://makemoji.com/sdk)**
+**[Learn More](http://makemoji.com)**
 
 
 Setup
